@@ -17,12 +17,21 @@
   color: white;
 }
 
-.box-style {
+.box-style1 {
   justify-content: start;
   margin: 30px;
   justify-content: space-between;
   background-color: #fcfcef;
   border-radius: 20px;
+}
+.box-style {
+  padding: 10px;
+  justify-content: start;
+  margin: 30px;
+  justify-content: space-between;
+  background-color: #fcfcef;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 .rounded-corners {
   display: flex;

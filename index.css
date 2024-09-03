@@ -3,12 +3,21 @@
   justify-content: start;
   /* margin: 10px; */
   justify-content: space-between;
+  align-items: center;
   background-color: #fcfcef;
   border-radius: 5px;
+  /* border: 1px solid black;
+  background-color: rgb(209, 215, 214); */
+}
+.items {
+  display: flex;
+  /* border: 1px solid black; */
+  width: 400px;
+  justify-content: space-evenly;
+  color: white;
 }
 
 .box-style {
-  /* display: flex; */
   justify-content: start;
   margin: 30px;
   justify-content: space-between;
@@ -19,18 +28,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 3px;
-  border-radius: 15px;
+  padding: 10px;
+  border-radius: 30px;
   height: 50vh;
   width: 50vh;
   background-size: cover;
+  margin: auto;
 }
 .banner-section-bg-container {
-  background-image: url("HomeFood.png");
+  background-image: url("Restaurant logo.jpg");
   height: 100vh;
   background-size: cover;
   justify-content: center;
   flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 50px;
 }
 
 .banner-heading {
